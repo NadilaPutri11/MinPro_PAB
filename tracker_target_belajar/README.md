@@ -4,7 +4,7 @@
 Aplikasi Target Belajar adalah aplikasi mobile berbasis Flutter yang digunakan untuk mencatat dan mengelola target belajar. Pengguna dapat menambahkan target berdasarkan mata kuliah, mengelompokkan ke dalam folder/kategori, serta menandai target yang telah selesai.
 Aplikasi ini dibuat untuk membantu mahasiswa dalam mengatur perencanaan belajar secara terstruktur dan terorganisir.
 
-## 🚀 Fitur Aplikasi
+## Fitur Aplikasi
 - Menambahkan target belajar
 - Mengedit (Update) data target
 - Menghapus target
@@ -14,7 +14,7 @@ Aplikasi ini dibuat untuk membantu mahasiswa dalam mengatur perencanaan belajar 
 - Filter target berdasarkan folder
 - Validasi form (tidak boleh kosong)
 
-## 🧩 Widget yang Digunakan
+## Widget yang Digunakan
 Beberapa widget utama yang digunakan dalam aplikasi:
 - `Scaffold`
 - `AppBar`
@@ -40,6 +40,7 @@ Aplikasi menggunakan navigasi multi halaman:
 - HomePage
 - FormPage
 - FolderPage
+
 Navigasi dilakukan menggunakan package `GetX` dengan `Get.to()` dan `Get.back()`.
 
 ## Teknologi yang Digunakan
@@ -48,4 +49,4 @@ Navigasi dilakukan menggunakan package `GetX` dengan `Get.to()` dan `Get.back()`
 - GetX (Navigation & Snackbar)
 
 ## Developer
-Dibuat sebagai tugas mini project Flutter.
+Dibuat sebagai tugas mini project 1 PAB.
