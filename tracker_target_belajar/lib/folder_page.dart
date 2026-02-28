@@ -36,7 +36,7 @@ class FolderPage extends StatelessWidget {
             leading: const Icon(Icons.folder),
             title: Text(namaFolder),
             subtitle: semuaSelesai
-                ? const Text("Semua target selesai ✅")
+                ? const Text("Semua target belajar telah terpenuhi ✅")
                 : Text("$selesai dari $total selesai ($persen%)"),
             onTap: () {
               Get.back(result: namaFolder);
