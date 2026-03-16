@@ -12,7 +12,7 @@ link drive pdf tampilan aplikasi: https://drive.google.com/file/d/1YemL7D11xx4ja
 
 # Fitur Aplikasi
 
-## Manajemen Target Belajar (CRUD)
+### Manajemen Target Belajar (CRUD)
 
 Aplikasi dapat melakukan operasi data berikut:
 
@@ -28,7 +28,7 @@ Aplikasi dapat melakukan operasi data berikut:
 * **Delete**
   Menghapus target belajar dari database Supabase.
 
-## Kalender Deadline
+### Kalender Deadline
 Aplikasi menyediakan tampilan **kalender** untuk melihat target belajar berdasarkan tanggal deadline.
 
 Fitur kalender:
@@ -43,7 +43,7 @@ Fitur kalender:
   * Lusa
   * Minggu Lagi
 
-## Folder Target
+### Folder Target
 
 Target belajar dapat dikelompokkan dalam **folder/kategori**.
 
@@ -53,7 +53,7 @@ Fitur folder:
 * Melihat jumlah target selesai dalam folder
 * Menampilkan target berdasarkan folder
 
-## Status Selesai Target
+### Status Selesai Target
 
 Setiap target memiliki status:
 
@@ -65,13 +65,13 @@ Target yang selesai akan:
 * Ditandai dengan ikon ✔
 * Teks menjadi **strikethrough**
 
-## Pencarian Target
+### Pencarian Target
 
 Pengguna dapat mencari target berdasarkan Mata kuliah
 * Target belajar
 * Deskripsi
 
-## Mode Tampilan (Light & Dark Mode)
+### Mode Tampilan (Light & Dark Mode)
 
 Aplikasi mendukung:
 
@@ -80,7 +80,7 @@ Aplikasi mendukung:
 
 Tema disimpan menggunakan **SharedPreferences** sehingga tetap tersimpan saat aplikasi dibuka kembali.
 
-# Database
+## Database
 
 Aplikasi menggunakan **Supabase** sebagai backend database.
 
@@ -98,7 +98,7 @@ Tabel yang digunakan:
 | deskripsi  | text        | Deskripsi tambahan |
 | selesai    | boolean     | Status selesai     |
 
-# Navigasi Halaman
+## Navigasi Halaman
 
 Aplikasi memiliki beberapa halaman utama:
 
