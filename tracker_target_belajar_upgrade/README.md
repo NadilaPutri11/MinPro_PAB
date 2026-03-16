@@ -1,11 +1,14 @@
-# tracker_target_belajar_upgrade README.md
+# Aplikasi Tracker Target Belajar Upgrade
 
-## Target Belajar App
+## Deskripsi Aplikasi
 
 Aplikasi **Target Belajar** adalah aplikasi mobile berbasis **Flutter** yang digunakan untuk mencatat dan mengelola target belajar mahasiswa.
 Aplikasi ini memungkinkan pengguna untuk membuat target belajar berdasarkan mata kuliah, deadline, dan kategori folder.
 
 Pada Mini Project 2 ini, aplikasi dikembangkan dengan **integrasi database Supabase** sehingga seluruh data target belajar disimpan secara online dan dapat dilakukan operasi **Create, Read, Update, dan Delete (CRUD)**.
+
+## Tampilan Aplikasi
+link drive pdf tampilan aplikasi: https://drive.google.com/file/d/1YemL7D11xx4ja2IimYyOhSV_tyM9FVIk/view?usp=sharing
 
 # Fitur Aplikasi
 
@@ -26,7 +29,6 @@ Aplikasi dapat melakukan operasi data berikut:
   Menghapus target belajar dari database Supabase.
 
 ## Kalender Deadline
-
 Aplikasi menyediakan tampilan **kalender** untuk melihat target belajar berdasarkan tanggal deadline.
 
 Fitur kalender:
@@ -39,7 +41,7 @@ Fitur kalender:
   * Hari ini
   * Besok
   * Lusa
-  * x hari lagi
+  * Minggu Lagi
 
 ## Folder Target
 
@@ -65,9 +67,7 @@ Target yang selesai akan:
 
 ## Pencarian Target
 
-Pengguna dapat mencari target berdasarkan:
-
-* Mata kuliah
+Pengguna dapat mencari target berdasarkan Mata kuliah
 * Target belajar
 * Deskripsi
 
@@ -80,7 +80,7 @@ Aplikasi mendukung:
 
 Tema disimpan menggunakan **SharedPreferences** sehingga tetap tersimpan saat aplikasi dibuka kembali.
 
-# 🗄 Database
+# Database
 
 Aplikasi menggunakan **Supabase** sebagai backend database.
 
@@ -90,7 +90,7 @@ Tabel yang digunakan:
 
 | Field      | Type        | Keterangan         |
 | ---------- | ----------- | ------------------ |
-| id         | uuid /      | ID target          |
+| id         | uuid        | ID target          |
 | kategori   | text        | Nama folder        |
 | mataKuliah | text        | Mata kuliah        |
 | target     | text        | Target belajar     |
@@ -98,17 +98,17 @@ Tabel yang digunakan:
 | deskripsi  | text        | Deskripsi tambahan |
 | selesai    | boolean     | Status selesai     |
 
-# 🧭 Navigasi Halaman
+# Navigasi Halaman
 
 Aplikasi memiliki beberapa halaman utama:
 
-1️⃣ **Home Page**
+**1. Home Page**
 
 * Menampilkan target berdasarkan kalender
 * Toggle kalender bulan / minggu
 * Menampilkan target belum selesai dan selesai
 
-2️⃣ **Form Page**
+**2. Form Page**
 
 Digunakan untuk:
 
@@ -123,7 +123,7 @@ Field input:
 * Deadline
 * Deskripsi
 
-3️⃣ **Folder Page**
+**3. Folder Page**
 
 Menampilkan:
 
@@ -131,7 +131,7 @@ Menampilkan:
 * Target dalam folder
 * Progress target selesai
 
-4️⃣ **Main Navigation**
+**4. Main Navigation**
 
 Navigasi menggunakan:
 
@@ -223,32 +223,6 @@ lib
  ┗ main.dart
 ```
 
----
-
-# 🚀 Cara Menjalankan Aplikasi
-
-1️⃣ Clone repository
-
-```
-git clone <link repository>
-```
-
-2️⃣ Install dependency
-
-```
-flutter pub get
-```
-
-3️⃣ Tambahkan file `.env`
-
-4️⃣ Jalankan aplikasi
-
-```
-flutter run
-```
-
----
-
 # Fitur Tambahan yang diimplementasikan
 ✔ **Folder Management**
 
@@ -266,42 +240,31 @@ Berikut fitur tambahan yang diimplementasikan dalam aplikasi:
 
 ✔ **Environment Variable (.env)** untuk menyimpan Supabase URL dan API Key
 
-# 📌 Repository
-
-Repository GitHub:
-
-```
-<masukkan link repo kamu di sini>
-```
-
-# 📊 Sekarang kita cek tugasmu
-
-## ✅ Ketentuan Umum
+## Ketentuan Umum
 
 | Ketentuan                    | Status |
 | ---------------------------- | ------ |
-| Flutter App                  | ✅      |
-| Lanjutan Mini Project 1      | ✅      |
-| Integrasi Supabase           | ✅      |
-| Struktur aplikasi lebih rapi | ✅      |
+| Flutter App                  | ✅     |
+| Lanjutan Mini Project 1      | ✅     |
+| Integrasi Supabase           | ✅     |
 
-## ✅ Fitur Wajib
+## Fitur Wajib
 
 | Fitur                 | Status      |
 | --------------------- | ----------- |
-| Create                | ✅           |
-| Read                  | ✅           |
-| Update                | ✅           |
-| Delete                | ✅           |
-| Halaman List Data     | ✅           |
-| Halaman Form          | ✅           |
-| Minimal 3 field input | ✅ (5 field) |
-| Data dari Supabase    | ✅           |
+| Create                | ✅          |
+| Read                  | ✅          |
+| Update                | ✅          |
+| Delete                | ✅          |
+| Halaman List Data     | ✅          |
+| Halaman Form          | ✅          |
+| Minimal 3 field input | ✅ (5 field)|
+| Data dari Supabase    | ✅          |
 
-## ⭐ Nilai Tambah
+## Nilai Tambah
 
 | Nilai Tambah    | Status |
 | --------------- | ------ |
-| Login Register  | ❌      |
-| Light/Dark Mode | ✅      |
-| .env            | ✅      |
+| Login Register  | ❌     |
+| Light/Dark Mode | ✅     |
+| .env            | ✅     |
