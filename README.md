@@ -9,4 +9,5 @@ Readme ini hanya sebagai daftar project kedepannya jika ada ada minpro berikutny
 ## Mini Project 1 - Tracker Target Belajar
 Readme penjelasan aplikasinya ada didalam folder [Tracker Target Belajar ](tracker_target_belajar) atau bisa klik [Readme Aplikasi Tracker Target Belajar](tracker_target_belajar/README.md)
 
-
+## Mini Project 2 - Tracker Target Belajar Upgrade
+Readme penjelasan aplikasinya ada didalam folder [Tracker Target Belajar_Upgrade ](tracker_target_belajar_upgrade) atau bisa klik [Readme Aplikasi Tracker Target Belajar Upgrade](tracker_target_belajar_upgrade/README.md)
